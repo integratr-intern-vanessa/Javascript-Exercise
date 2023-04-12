@@ -1,0 +1,34 @@
+
+.infoText {
+    background-color: white;
+    width: 2000; height: 100px;
+    padding: 10px; box-shadow: 0 2px rgba (48, 46, 46);
+    border: none; float: left; background-color: ffffff;
+}
+
+.info {
+    background-color: ffffff;
+    display: inline-block;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 12px;
+    outline: black; padding: 20px; width: 438px;
+}
+
+.info > input {
+    width: 200px; height: 50px;
+    padding: 10px; border: none;
+}
+
+.boxes {
+    background-color: ffffff; display: inline-block;
+    box-shadow: 5px 5px 5px grey; outline: black; padding: 20px; width: 250px;
+    margin-top: 50px; width: 1412px; height: 145px;
+    border-radius: 12px;
+}
+
+.bnt {
+    background-color: ffffff; margin: auto;
+    box-shadow: 2px 2px 2px grey;font-size: 16px;
+    text-align: center;
+}
+

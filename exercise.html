@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sports</title>
+</head>
+<body>
+        <div class="infoText">
+            
+            <div class="info">
+                <input type="text" class="text" id="fname" placeholder= "Firstname">
+            </div> 
+
+            <div class="info">
+                <input type="text" class="text" id="mname" placeholder="Middlename">
+            </div> 
+
+            <div class="info">
+                <input type="text" class="text" id="lname" placeholder="Lastname">
+            </div>   
+        </div>
+    <div class="boxes">
+        <span style="font-weight:bold;">
+        <div> Sports</div> 
+        <input type="checkbox" id="Basketball" value="Basketball" class="checkbox sports"> basketball <br>
+        <input type="checkbox" id="Volleyball" value="Volleyball" class="checkbox sports"> Volleyball <br>
+        <input type="checkbox" id="Badminton" value="Badminton" class="checkbox sports"> Badminton <br>
+        <input type="checkbox" id="Soccer" value="Soccer" class="checkbox sports"> Soccer <br>
+        <input type="checkbox" id="Baseball" value="Baseball" class="checkbox sports"> Baseball <br>
+        <input type="checkbox" id="Tennis" value="Tennis" class="checkbox sports"> Tennis <br>
+        <input type="checkbox" id="Surfing" value="Surfing" class="checkbox sports"> Surfing <br> 
+        </span>      
+    </div> 
+</body>
+        <br></br>   
+        <input type="button" value="Submit" class="bnt" onclick="onSubmit()">
+        <br></br>   
+
+
+        <span style="font-weight:bold;">
+        <div> Fullname:</div> 
+        <div id="fullname"></div>
+        <div> Sports:</div> 
+        <span id="sports"></span>
+        </span>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
